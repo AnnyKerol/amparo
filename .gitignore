@@ -1,0 +1,31 @@
+# Credenciais e configurações locais
+.env
+.env.local
+.env.save
+.env.*.local
+
+# Banco de dados (dumps e exports)
+amparoapp.sql
+bd/
+
+# Sessões Flask
+flask_session/
+frontend/flask_session/
+
+# Dependências
+frontend/node_modules/
+
+# Uploads e mídia gerados em runtime
+backend/media/
+
+# Arquivos do sistema
+.DS_Store
+__pycache__/
+*.pyc
+*.pyo
+
+# Build do frontend
+frontend/dist/
+
+# Claude Code
+.claude/
