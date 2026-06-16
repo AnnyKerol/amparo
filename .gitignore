@@ -27,5 +27,3 @@ __pycache__/
 # Build do frontend
 frontend/dist/
 
-# Claude Code
-.claude/

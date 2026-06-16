@@ -1,0 +1,43 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip3 --version)",
+      "Bash(npm --version)",
+      "Bash(psql --version)",
+      "Bash(pg_isready)",
+      "Bash(pip3 list *)",
+      "Bash(psql -U admin -d amparoapp -c \"\\\\dt\")",
+      "Bash(psql *)",
+      "Bash(pip3 install *)",
+      "Bash(DB_HOST=localhost DB_USER=admin DB_PASSWORD=Admin123 DB_NAME=amparoapp SECRET_KEY=xK9#mPq2@nLw8vRtt PORT=5000 python3 backend/app.py)",
+      "Bash(curl -s http://localhost:5000/api/health)",
+      "Bash(echo \"PID: $!\")",
+      "Bash(curl *)",
+      "Bash(npm run *)",
+      "Bash(echo \"Frontend PID: $!\")",
+      "Bash(gh pr *)",
+      "Bash(python3 -c \"import sys,json; [print\\(f['filename']\\) for f in json.load\\(sys.stdin\\)]\")",
+      "Bash(python3 -c \"import sys,json; data=json.load\\(sys.stdin\\); print\\(data\\) if isinstance\\(data, dict\\) else [print\\(f['filename']\\) for f in data]\")",
+      "Bash(python3 -c \"import sys,json; data=json.load\\(sys.stdin\\); [print\\(f'{c[\\\\\"id\\\\\"]} | {c[\\\\\"title\\\\\"]} | {c[\\\\\"pdf_file\\\\\"]}'\\) for c in data['cartilhas']]\")",
+      "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\('Total:', d['total']\\)\")",
+      "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\('Total:', d['total']\\); [print\\(f'  - {c[\\\\\"id\\\\\"]} | {c[\\\\\"title\\\\\"]}'\\) for c in d['cartilhas']]\")",
+      "Bash(pkill -f \"python3 backend/app.py\")",
+      "Bash(DB_HOST=localhost DB_USER=admin DB_PASSWORD=Admin123 DB_NAME=amparoapp SECRET_KEY=xK9#mPq2@nLw8vRtt PORT=5000 python3 /Users/annykerollayny/Documents/amparo/backend/app.py)",
+      "Bash(xargs kill -9)",
+      "Bash(python3 *)",
+      "Bash(DB_HOST=localhost DB_USER=admin DB_PASSWORD=Admin123 DB_NAME=amparoapp SECRET_KEY=xK9#mPq2@nLw8vRtt ALLOWED_ORIGINS=\"http://localhost:5173,http://localhost:5000\" PORT=5000 python3 backend/app.py)",
+      "Bash(echo \"Backend PID: $!\")",
+      "Skill(run)",
+      "Bash(npx playwright *)",
+      "Bash(npm list *)",
+      "Bash(npx --yes playwright@1.61.0 --version)",
+      "Bash(git -C /Users/annykerollayny/Documents/amparo branch -vv)",
+      "Bash(git -C /Users/annykerollayny/Documents/amparo remote -v)",
+      "Bash(git -C /Users/annykerollayny/Documents/amparo status --short)",
+      "Bash(git -C /Users/annykerollayny/Documents/amparo log --oneline -5)",
+      "Bash(git *)",
+      "Bash(gh *)",
+      "Bash(claude *)"
+    ]
+  }
+}
